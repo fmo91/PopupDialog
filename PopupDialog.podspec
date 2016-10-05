@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PopupDialog'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = 'A simple custom popup dialog view controller'
   s.homepage         = 'https://github.com/orderella/PopupDialog'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'PopupDialog/Classes/**/*'
-  s.dependency 'TZStackView'
+  s.dependency 'TZStackView', '1.2.0'
 end
